@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+\$.ajax({
+    type: 'post',
+    url: '',
+    dataType: 'json',
+    success: function(data) {
+
+    },
+    error: function(xhr, type, exception) { 
+        console.error(xhr);
+        console.error(type);
+        console.error(exception);
+    }
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ajax</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.html,source.js</scope>
+</snippet>
