@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$dados = \$this->input->post();
+
+]]></content>
+	<tabTrigger>dados</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

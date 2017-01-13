@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+git rm -r --cached .
+git add .
+git commit -m "reseta .gitignore"
+]]></content>
+	<tabTrigger>gitignorereset</tabTrigger>
+</snippet>
