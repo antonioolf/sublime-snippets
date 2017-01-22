@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 \$.ajax({
-    type: 'post',
+    type: 'get',
     url: '',
     dataType: 'json',
     success: function(data) {
