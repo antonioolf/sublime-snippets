@@ -5,7 +5,7 @@
 \$this->db->where(array('${1:foo}' => 'bar'));
 \$query = \$this->db->get();
 \$result = \$query->result();
-return \$result();
+return \$result;
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>select</tabTrigger>
