@@ -1,10 +1,19 @@
 # Sublime Snippets
 
-Alguns Snippets para o editor Sublime Text 3
+Some Snippets for Sublime Text 3
 
-## Instalação
+## Installation
 
-No Windows, abra o terminal e execute o comando
+### Windows
+
+Open CMD and run the following
 
 * cd "%AppData%\Sublime Text 3\Packages\User" && git clone https://github.com/guitarrist/sublime-snippets.git
-* Reinicie o Sublime.
+* Restart Sublime.
+
+### Linux
+
+Open terminal and run the following
+
+* cd {{ user-packages-folder }} && git clone https://github.com/guitarrist/sublime-snippets.git
+* Restart Sublime.
